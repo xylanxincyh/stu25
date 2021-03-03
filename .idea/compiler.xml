@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbodemo" />
+        <module name="dubboservice" />
+        <module name="dubboservice1" />
+        <module name="dubboserviceapi" />
+        <module name="dubboserviceclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dubbodemo" target="1.5" />
+      <module name="dubbodemo" target="1.8" />
+      <module name="dubboservice" target="1.8" />
+      <module name="dubboservice1" target="1.8" />
+      <module name="dubboserviceapi" target="1.8" />
+      <module name="dubboserviceclient" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
