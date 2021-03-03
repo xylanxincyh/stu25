@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 @Service(timeout = 1000,retries = 3,group = "group1")
 @Component
 public class UserServiceImpl implements  UserService {
+
+    //不打招呼
     @Override
     public String say(String name) {
         return "Hello1 "+name;
